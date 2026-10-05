@@ -31,6 +31,14 @@ The script generates every clip in a staging directory first. It only replaces t
 
 Do not edit `dist/narration/` directly: `dist/` is generated output. After changing narration, run `corepack pnpm build` to copy the new clips into `dist/` and refresh the PWA cache manifest.
 
+## Deployment
+
+Pushes to `main` are automatically tested, built, and deployed to GitHub Pages at:
+
+<https://sameerkhalid.github.io/mahirul-quran-kids/>
+
+The deployment workflow supplies `BASE_PATH=/mahirul-quran-kids/`; local builds continue to use `/`. Client-side routes use URL hashes so that refreshing a nested screen works on static hosting.
+
 ## Prototype sources
 
 - Uthmanic Hafs text/font: King Fahd Glorious Qur’an Printing Complex resources

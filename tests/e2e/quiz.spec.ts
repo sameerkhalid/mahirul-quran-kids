@@ -14,7 +14,7 @@ test("starts and preserves a five-question quiz", async ({ page }) => {
 });
 
 test("single-surah setup excludes identify questions", async ({ page }) => {
-  await page.goto("/setup");
+  await page.goto("/#/setup");
   await page.getByRole("button", { name: /Al-Falaq/ }).click();
   await page.getByRole("button", { name: /\bAn-Nas\b/ }).click();
   await page.getByRole("button", { name: /Let’s begin/ }).click();
@@ -22,7 +22,7 @@ test("single-surah setup excludes identify questions", async ({ page }) => {
 });
 
 test("range presets select an inclusive surah range", async ({ page }) => {
-  await page.goto("/setup");
+  await page.goto("/#/setup");
   await page.getByRole("button", { name: "Last 10" }).click();
   await expect(page.getByText("10 selected")).toBeVisible();
   await expect(page.getByText("15 questions")).toBeVisible();
@@ -49,7 +49,7 @@ test("the final answer opens the celebration results page", async ({ page }) => 
     localStorage.removeItem("mahirul-quran:last-result:v1");
   });
 
-  await page.goto("/quiz");
+  await page.goto("/#/quiz");
   await expect(page.getByRole("button", { name: "Hear the question" })).toBeVisible();
   await page.getByRole("button", { name: "Show me the answer" }).click();
   await page.getByRole("button", { name: /I remembered/ }).click();
@@ -79,7 +79,7 @@ test("meaning-match connectors align with their option rows", async ({ page }) =
     }));
   });
 
-  await page.goto("/quiz");
+  await page.goto("/#/quiz");
   const markers = page.locator(".match-lines span:not(.match-lines__spacer)");
   const cards = page.locator(".meaning-column").first().locator("button");
   await expect(markers).toHaveCount(3);

@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { AppStateProvider } from "./state/AppState";
 import { CreditsPage } from "./pages/CreditsPage";
 import { GrownupsPage } from "./pages/GrownupsPage";
@@ -9,7 +9,7 @@ import { SetupPage } from "./pages/SetupPage";
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <AppStateProvider>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -21,6 +21,6 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </AppStateProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
