@@ -1,0 +1,12 @@
+[
+  { "id": "105-next-1", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [105], "difficulty": 1, "source": "generated", "data": { "promptAyahKey": "105:1", "correctAyahKey": "105:2" } },
+  { "id": "105-next-2", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [105], "difficulty": 1, "source": "generated", "data": { "promptAyahKey": "105:2", "correctAyahKey": "105:3" } },
+  { "id": "105-next-3", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [105], "difficulty": 2, "source": "generated", "data": { "promptAyahKey": "105:3", "correctAyahKey": "105:4" } },
+  { "id": "105-next-4", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [105], "difficulty": 2, "source": "generated", "data": { "promptAyahKey": "105:4", "correctAyahKey": "105:5" } },
+  { "id": "105-identify-1", "type": "identify-surah", "enabled": true, "surahNumbers": [105], "difficulty": 1, "source": "curated", "data": { "ayahKey": "105:1", "correctSurahNumber": 105 } },
+  { "id": "105-identify-2", "type": "identify-surah", "enabled": true, "surahNumbers": [105], "difficulty": 2, "source": "curated", "data": { "ayahKey": "105:4", "correctSurahNumber": 105 } },
+  { "id": "105-arrange-1", "type": "arrange-ayahs", "enabled": true, "surahNumbers": [105], "difficulty": 1, "source": "curated", "data": { "correctOrder": ["105:1", "105:2", "105:3", "105:4"] } },
+  { "id": "105-arrange-2", "type": "arrange-ayahs", "enabled": true, "surahNumbers": [105], "difficulty": 2, "source": "curated", "data": { "correctOrder": ["105:2", "105:3", "105:4", "105:5"] } },
+  { "id": "105-recite-1", "type": "recite-next", "enabled": true, "surahNumbers": [105], "difficulty": 1, "source": "curated", "data": { "promptAyahKey": "105:1", "answerAyahKey": "105:2" } },
+  { "id": "105-recite-2", "type": "recite-next", "enabled": true, "surahNumbers": [105], "difficulty": 2, "source": "curated", "data": { "promptAyahKey": "105:4", "answerAyahKey": "105:5" } }
+]

@@ -1,0 +1,14 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 105,
+  "nameArabic": "الفيل",
+  "nameEnglish": "Al-Fil",
+  "meaningEnglish": "The Elephant",
+  "ayahs": [
+    { "verseKey": "105:1", "surahNumber": 105, "ayahNumber": 1, "textQpcHafs": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ" },
+    { "verseKey": "105:2", "surahNumber": 105, "ayahNumber": 2, "textQpcHafs": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ" },
+    { "verseKey": "105:3", "surahNumber": 105, "ayahNumber": 3, "textQpcHafs": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ" },
+    { "verseKey": "105:4", "surahNumber": 105, "ayahNumber": 4, "textQpcHafs": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ" },
+    { "verseKey": "105:5", "surahNumber": 105, "ayahNumber": 5, "textQpcHafs": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ" }
+  ]
+}

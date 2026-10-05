@@ -1,0 +1,13 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 112,
+  "nameArabic": "الإخلاص",
+  "nameEnglish": "Al-Ikhlas",
+  "meaningEnglish": "Sincerity",
+  "ayahs": [
+    { "verseKey": "112:1", "surahNumber": 112, "ayahNumber": 1, "textQpcHafs": "قُلْ هُوَ ٱللَّهُ أَحَدٌ" },
+    { "verseKey": "112:2", "surahNumber": 112, "ayahNumber": 2, "textQpcHafs": "ٱللَّهُ ٱلصَّمَدُ" },
+    { "verseKey": "112:3", "surahNumber": 112, "ayahNumber": 3, "textQpcHafs": "لَمْ يَلِدْ وَلَمْ يُولَدْ" },
+    { "verseKey": "112:4", "surahNumber": 112, "ayahNumber": 4, "textQpcHafs": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ" }
+  ]
+}

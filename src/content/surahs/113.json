@@ -1,0 +1,14 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 113,
+  "nameArabic": "الفلق",
+  "nameEnglish": "Al-Falaq",
+  "meaningEnglish": "Daybreak",
+  "ayahs": [
+    { "verseKey": "113:1", "surahNumber": 113, "ayahNumber": 1, "textQpcHafs": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ" },
+    { "verseKey": "113:2", "surahNumber": 113, "ayahNumber": 2, "textQpcHafs": "مِن شَرِّ مَا خَلَقَ" },
+    { "verseKey": "113:3", "surahNumber": 113, "ayahNumber": 3, "textQpcHafs": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ" },
+    { "verseKey": "113:4", "surahNumber": 113, "ayahNumber": 4, "textQpcHafs": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ" },
+    { "verseKey": "113:5", "surahNumber": 113, "ayahNumber": 5, "textQpcHafs": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ" }
+  ]
+}

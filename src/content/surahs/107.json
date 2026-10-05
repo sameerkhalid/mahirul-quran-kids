@@ -1,0 +1,16 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 107,
+  "nameArabic": "الماعون",
+  "nameEnglish": "Al-Ma'un",
+  "meaningEnglish": "Small Kindnesses",
+  "ayahs": [
+    { "verseKey": "107:1", "surahNumber": 107, "ayahNumber": 1, "textQpcHafs": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ" },
+    { "verseKey": "107:2", "surahNumber": 107, "ayahNumber": 2, "textQpcHafs": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ" },
+    { "verseKey": "107:3", "surahNumber": 107, "ayahNumber": 3, "textQpcHafs": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ" },
+    { "verseKey": "107:4", "surahNumber": 107, "ayahNumber": 4, "textQpcHafs": "فَوَيْلٌ لِّلْمُصَلِّينَ" },
+    { "verseKey": "107:5", "surahNumber": 107, "ayahNumber": 5, "textQpcHafs": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ" },
+    { "verseKey": "107:6", "surahNumber": 107, "ayahNumber": 6, "textQpcHafs": "ٱلَّذِينَ هُمْ يُرَآءُونَ" },
+    { "verseKey": "107:7", "surahNumber": 107, "ayahNumber": 7, "textQpcHafs": "وَيَمْنَعُونَ ٱلْمَاعُونَ" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 110,
+  "nameArabic": "النصر",
+  "nameEnglish": "An-Nasr",
+  "meaningEnglish": "Divine Support",
+  "ayahs": [
+    { "verseKey": "110:1", "surahNumber": 110, "ayahNumber": 1, "textQpcHafs": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ" },
+    { "verseKey": "110:2", "surahNumber": 110, "ayahNumber": 2, "textQpcHafs": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا" },
+    { "verseKey": "110:3", "surahNumber": 110, "ayahNumber": 3, "textQpcHafs": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا" }
+  ]
+}

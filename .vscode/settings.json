@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/src/content/surahs/*.json"],
+      "url": "./src/content/surah.schema.json"
+    },
+    {
+      "fileMatch": ["/src/content/questions/*.json"],
+      "url": "./src/content/question-bank.schema.json"
+    }
+  ]
+}

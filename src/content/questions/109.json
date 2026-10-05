@@ -1,0 +1,13 @@
+[
+  { "id": "109-next-1", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [109], "difficulty": 1, "source": "generated", "data": { "promptAyahKey": "109:1", "correctAyahKey": "109:2" } },
+  { "id": "109-next-2", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [109], "difficulty": 1, "source": "generated", "data": { "promptAyahKey": "109:2", "correctAyahKey": "109:3" } },
+  { "id": "109-next-3", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [109], "difficulty": 2, "source": "generated", "data": { "promptAyahKey": "109:3", "correctAyahKey": "109:4" } },
+  { "id": "109-next-4", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [109], "difficulty": 2, "source": "generated", "data": { "promptAyahKey": "109:4", "correctAyahKey": "109:5" } },
+  { "id": "109-next-5", "type": "choose-next-ayah", "enabled": true, "surahNumbers": [109], "difficulty": 2, "source": "generated", "data": { "promptAyahKey": "109:5", "correctAyahKey": "109:6" } },
+  { "id": "109-identify-1", "type": "identify-surah", "enabled": true, "surahNumbers": [109], "difficulty": 1, "source": "curated", "data": { "ayahKey": "109:1", "correctSurahNumber": 109 } },
+  { "id": "109-identify-2", "type": "identify-surah", "enabled": true, "surahNumbers": [109], "difficulty": 2, "source": "curated", "data": { "ayahKey": "109:6", "correctSurahNumber": 109 } },
+  { "id": "109-arrange-1", "type": "arrange-ayahs", "enabled": true, "surahNumbers": [109], "difficulty": 1, "source": "curated", "data": { "correctOrder": ["109:1", "109:2", "109:3", "109:4"] } },
+  { "id": "109-arrange-2", "type": "arrange-ayahs", "enabled": true, "surahNumbers": [109], "difficulty": 2, "source": "curated", "data": { "correctOrder": ["109:3", "109:4", "109:5", "109:6"] } },
+  { "id": "109-recite-1", "type": "recite-next", "enabled": true, "surahNumbers": [109], "difficulty": 1, "source": "curated", "data": { "promptAyahKey": "109:1", "answerAyahKey": "109:2" } },
+  { "id": "109-recite-2", "type": "recite-next", "enabled": true, "surahNumbers": [109], "difficulty": 2, "source": "curated", "data": { "promptAyahKey": "109:5", "answerAyahKey": "109:6" } }
+]

@@ -1,0 +1,15 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 109,
+  "nameArabic": "الكافرون",
+  "nameEnglish": "Al-Kafirun",
+  "meaningEnglish": "The Disbelievers",
+  "ayahs": [
+    { "verseKey": "109:1", "surahNumber": 109, "ayahNumber": 1, "textQpcHafs": "قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ" },
+    { "verseKey": "109:2", "surahNumber": 109, "ayahNumber": 2, "textQpcHafs": "لَآ أَعْبُدُ مَا تَعْبُدُونَ" },
+    { "verseKey": "109:3", "surahNumber": 109, "ayahNumber": 3, "textQpcHafs": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ" },
+    { "verseKey": "109:4", "surahNumber": 109, "ayahNumber": 4, "textQpcHafs": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ" },
+    { "verseKey": "109:5", "surahNumber": 109, "ayahNumber": 5, "textQpcHafs": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ" },
+    { "verseKey": "109:6", "surahNumber": 109, "ayahNumber": 6, "textQpcHafs": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ" }
+  ]
+}

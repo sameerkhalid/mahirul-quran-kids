@@ -1,0 +1,14 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 111,
+  "nameArabic": "المسد",
+  "nameEnglish": "Al-Masad",
+  "meaningEnglish": "Palm Fibre",
+  "ayahs": [
+    { "verseKey": "111:1", "surahNumber": 111, "ayahNumber": 1, "textQpcHafs": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ" },
+    { "verseKey": "111:2", "surahNumber": 111, "ayahNumber": 2, "textQpcHafs": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ" },
+    { "verseKey": "111:3", "surahNumber": 111, "ayahNumber": 3, "textQpcHafs": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ" },
+    { "verseKey": "111:4", "surahNumber": 111, "ayahNumber": 4, "textQpcHafs": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ" },
+    { "verseKey": "111:5", "surahNumber": 111, "ayahNumber": 5, "textQpcHafs": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 108,
+  "nameArabic": "الكوثر",
+  "nameEnglish": "Al-Kawthar",
+  "meaningEnglish": "Abundance",
+  "ayahs": [
+    { "verseKey": "108:1", "surahNumber": 108, "ayahNumber": 1, "textQpcHafs": "إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ" },
+    { "verseKey": "108:2", "surahNumber": 108, "ayahNumber": 2, "textQpcHafs": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ" },
+    { "verseKey": "108:3", "surahNumber": 108, "ayahNumber": 3, "textQpcHafs": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ" }
+  ]
+}
