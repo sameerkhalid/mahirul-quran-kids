@@ -5,6 +5,7 @@ test("starts and preserves a five-question quiz", async ({ page }) => {
   await expect(page.getByRole("heading", { name: /learn, remember/i })).toBeVisible();
   await page.getByRole("link", { name: "Start a quiz" }).click();
   await expect(page.getByRole("heading", { name: "Choose today’s surahs" })).toBeVisible();
+  await page.getByRole("tab", { name: /Pick individually/ }).click();
   await page.getByRole("button", { name: /Al-Falaq/ }).click();
   await page.getByRole("button", { name: /\bAn-Nas\b/ }).click();
   await page.getByRole("button", { name: /Let’s begin/ }).click();
@@ -15,6 +16,7 @@ test("starts and preserves a five-question quiz", async ({ page }) => {
 
 test("single-surah setup excludes identify questions", async ({ page }) => {
   await page.goto("/#/setup");
+  await page.getByRole("tab", { name: /Pick individually/ }).click();
   await page.getByRole("button", { name: /Al-Falaq/ }).click();
   await page.getByRole("button", { name: /\bAn-Nas\b/ }).click();
   await page.getByRole("button", { name: /Let’s begin/ }).click();
@@ -26,6 +28,7 @@ test("range presets select an inclusive surah range", async ({ page }) => {
   await page.getByRole("button", { name: "Last 10" }).click();
   await expect(page.getByText("10 selected")).toBeVisible();
   await expect(page.getByText("15 questions")).toBeVisible();
+  await page.getByRole("tab", { name: /Pick individually/ }).click();
   await expect(page.getByRole("button", { name: /Al-Fil/ })).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByRole("button", { name: /\bAn-Nas\b/ })).toHaveAttribute("aria-pressed", "true");
 });
@@ -35,6 +38,7 @@ test("the expanded range can include Ad-Duha through An-Nas", async ({ page }) =
   await page.getByLabel("From").selectOption("93");
   await expect(page.getByText("22 selected")).toBeVisible();
   await expect(page.getByText("25 questions")).toBeVisible();
+  await page.getByRole("tab", { name: /Pick individually/ }).click();
   await expect(page.getByRole("button", { name: /Ad-Duha/ })).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByRole("button", { name: /\bAn-Nas\b/ })).toHaveAttribute("aria-pressed", "true");
 });

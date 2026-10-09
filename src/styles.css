@@ -88,7 +88,14 @@ h2 { letter-spacing: -.025em; }
 
 .setup-page, .settings-page, .credits-page { max-width: 700px; margin: 18px auto 0; }
 .setup-page > h1, .settings-page > h1, .credits-page > h1 { font-size: clamp(2.2rem, 7vw, 3.5rem); }
-.range-picker { margin: 26px 0 20px; padding: 20px; border-radius: 24px; background: var(--sky); box-shadow: var(--shadow); }
+.selection-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; margin: 26px 0 14px; padding: 7px; border-radius: 22px; background: rgba(195,220,231,.5); }
+.selection-tabs button { min-height: 66px; padding: 10px 14px; border: 0; border-radius: 16px; color: #637784; background: transparent; cursor: pointer; }
+.selection-tabs strong, .selection-tabs small { display: block; }
+.selection-tabs strong { font-size: .9rem; }
+.selection-tabs small { margin-top: 3px; font: 650 .72rem/1.3 system-ui, sans-serif; }
+.selection-tabs .selection-tab--active { color: var(--navy); background: white; box-shadow: 0 4px 12px rgba(33,61,85,.12); }
+.selection-panel { margin-bottom: 20px; }
+.range-picker { padding: 20px; border-radius: 24px; background: var(--sky); box-shadow: var(--shadow); }
 .range-picker__heading, .custom-selection-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .range-picker__heading strong, .range-picker__heading small, .custom-selection-heading strong, .custom-selection-heading small { display: block; }
 .range-picker__heading small, .custom-selection-heading small { color: #607581; font: 600 .78rem/1.5 system-ui, sans-serif; margin-top: 3px; }
@@ -99,7 +106,7 @@ h2 { letter-spacing: -.025em; }
 .range-fields select { display: block; width: 100%; min-height: 50px; margin-top: 6px; padding: 8px 12px; border: 2px solid #c3dce7; border-radius: 14px; color: var(--navy); background: white; font: 800 .86rem system-ui, sans-serif; }
 .range-presets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .range-presets button, .custom-selection-heading button { min-height: 42px; border: 0; border-radius: 13px; color: var(--navy); background: rgba(255,255,255,.76); font-weight: 900; cursor: pointer; }
-.custom-selection-heading { margin-top: 24px; }
+.custom-selection-heading { margin-top: 8px; }
 .custom-selection-heading button { padding: 5px 14px; background: var(--coral-light); color: #9d503c; }
 .surah-selector { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 28px 0 22px; }
 .surah-selector--expanded { grid-template-columns: repeat(5, 1fr); margin-top: 14px; }
@@ -269,6 +276,8 @@ h2 { letter-spacing: -.025em; }
   .surah-selector--expanded .surah-card .surah-arabic { display: block; text-align: center; font-size: 1.8rem; margin: 15px 0 5px; }
   .surah-selector--expanded .surah-card strong, .surah-selector--expanded .surah-card small { display: block; }
   .range-picker { padding: 16px; }
+  .selection-tabs button { min-height: 62px; padding-inline: 8px; }
+  .selection-tabs strong { font-size: .8rem; }
   .range-fields { gap: 7px; }
   .range-fields select { padding-inline: 7px; font-size: .76rem; }
   .surah-card { min-height: 138px; display: grid; grid-template-columns: 1fr 1fr; align-content: center; text-align: left; padding-inline: 22px; }
