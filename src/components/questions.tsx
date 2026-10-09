@@ -102,13 +102,13 @@ function ChoiceQuestion({ question, onComplete, isLastQuestion }: PlayerProps) {
   return (
     <section className="question-panel">
       <div className="question-heading"><span className="question-icon">→</span><div><p className="eyebrow">What comes next?</p><h1>Choose the next ayah</h1></div><NarrationButton file="narration/choose-next-ayah.mp3" label="Hear the question" /></div>
-      <div className="prompt-card"><QuranText verseKey={question.promptAyahKey} size="large" /><AudioButton verseKey={question.promptAyahKey} /></div>
+      <div className="prompt-card"><QuranText verseKey={question.promptAyahKey} marker="empty" size="large" /><AudioButton verseKey={question.promptAyahKey} /></div>
       <div className="choice-list" aria-label="Answer choices">
         {question.optionAyahKeys.map((key) => {
           const isSelected = selected === key;
           const isAnswer = key === question.correctAyahKey;
           const stateClass = finished && isAnswer ? "choice-card--correct" : isSelected && !isAnswer ? "choice-card--wrong" : "";
-          return <button key={key} className={`choice-card ${stateClass}`} type="button" onClick={() => choose(key)} disabled={finished || (attempts === 1 && isSelected)}><QuranText verseKey={key} size="regular" /></button>;
+          return <button key={key} className={`choice-card ${stateClass}`} type="button" onClick={() => choose(key)} disabled={finished || (attempts === 1 && isSelected)}><QuranText verseKey={key} marker="empty" size="regular" /></button>;
         })}
       </div>
       {attempts === 1 && !finished && <Feedback success={false} />}
@@ -156,7 +156,7 @@ function SortableAyah({ verseKey, index, total, move }: { verseKey: VerseKey; in
   return (
     <div ref={setNodeRef} className={`sort-card ${isDragging ? "sort-card--dragging" : ""}`} style={{ transform: CSS.Transform.toString(transform), transition }}>
       <button className="drag-handle" type="button" aria-label={`Drag ayah ${index + 1}`} {...attributes} {...listeners}>⠿</button>
-      <QuranText verseKey={verseKey} size="small" />
+      <QuranText verseKey={verseKey} marker="empty" size="small" />
       <div className="sort-controls">
         <button type="button" disabled={index === 0} onClick={() => move(index, index - 1)} aria-label="Move ayah up">↑</button>
         <button type="button" disabled={index === total - 1} onClick={() => move(index, index + 1)} aria-label="Move ayah down">↓</button>
