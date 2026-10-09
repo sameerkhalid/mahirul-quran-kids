@@ -1,0 +1,17 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 102,
+  "nameArabic": "التكاثر",
+  "nameEnglish": "At-Takathur",
+  "meaningEnglish": "Competition for More",
+  "ayahs": [
+    { "verseKey": "102:1", "surahNumber": 102, "ayahNumber": 1, "textQpcHafs": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ" },
+    { "verseKey": "102:2", "surahNumber": 102, "ayahNumber": 2, "textQpcHafs": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ" },
+    { "verseKey": "102:3", "surahNumber": 102, "ayahNumber": 3, "textQpcHafs": "كَلَّا سَوْفَ تَعْلَمُونَ" },
+    { "verseKey": "102:4", "surahNumber": 102, "ayahNumber": 4, "textQpcHafs": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ" },
+    { "verseKey": "102:5", "surahNumber": 102, "ayahNumber": 5, "textQpcHafs": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ" },
+    { "verseKey": "102:6", "surahNumber": 102, "ayahNumber": 6, "textQpcHafs": "لَتَرَوُنَّ ٱلْجَحِيمَ" },
+    { "verseKey": "102:7", "surahNumber": 102, "ayahNumber": 7, "textQpcHafs": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ" },
+    { "verseKey": "102:8", "surahNumber": 102, "ayahNumber": 8, "textQpcHafs": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ" }
+  ]
+}

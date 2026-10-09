@@ -1,0 +1,20 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 100,
+  "nameArabic": "العاديات",
+  "nameEnglish": "Al-Adiyat",
+  "meaningEnglish": "The Charging Horses",
+  "ayahs": [
+    { "verseKey": "100:1", "surahNumber": 100, "ayahNumber": 1, "textQpcHafs": "وَٱلْعَـٰدِيَـٰتِ ضَبْحًا" },
+    { "verseKey": "100:2", "surahNumber": 100, "ayahNumber": 2, "textQpcHafs": "فَٱلْمُورِيَـٰتِ قَدْحًا" },
+    { "verseKey": "100:3", "surahNumber": 100, "ayahNumber": 3, "textQpcHafs": "فَٱلْمُغِيرَٰتِ صُبْحًا" },
+    { "verseKey": "100:4", "surahNumber": 100, "ayahNumber": 4, "textQpcHafs": "فَأَثَرْنَ بِهِۦ نَقْعًا" },
+    { "verseKey": "100:5", "surahNumber": 100, "ayahNumber": 5, "textQpcHafs": "فَوَسَطْنَ بِهِۦ جَمْعًا" },
+    { "verseKey": "100:6", "surahNumber": 100, "ayahNumber": 6, "textQpcHafs": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ" },
+    { "verseKey": "100:7", "surahNumber": 100, "ayahNumber": 7, "textQpcHafs": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ" },
+    { "verseKey": "100:8", "surahNumber": 100, "ayahNumber": 8, "textQpcHafs": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ" },
+    { "verseKey": "100:9", "surahNumber": 100, "ayahNumber": 9, "textQpcHafs": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ" },
+    { "verseKey": "100:10", "surahNumber": 100, "ayahNumber": 10, "textQpcHafs": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ" },
+    { "verseKey": "100:11", "surahNumber": 100, "ayahNumber": 11, "textQpcHafs": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ" }
+  ]
+}

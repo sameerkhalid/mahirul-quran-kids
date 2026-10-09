@@ -30,6 +30,15 @@ test("range presets select an inclusive surah range", async ({ page }) => {
   await expect(page.getByRole("button", { name: /\bAn-Nas\b/ })).toHaveAttribute("aria-pressed", "true");
 });
 
+test("the expanded range can include Ad-Duha through An-Nas", async ({ page }) => {
+  await page.goto("/#/setup");
+  await page.getByLabel("From").selectOption("93");
+  await expect(page.getByText("22 selected")).toBeVisible();
+  await expect(page.getByText("25 questions")).toBeVisible();
+  await expect(page.getByRole("button", { name: /Ad-Duha/ })).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByRole("button", { name: /\bAn-Nas\b/ })).toHaveAttribute("aria-pressed", "true");
+});
+
 test("the final answer opens the celebration results page", async ({ page }) => {
   await page.addInitScript(() => {
     localStorage.setItem("mahirul-quran:active-session:v1", JSON.stringify({

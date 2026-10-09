@@ -1,0 +1,14 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 97,
+  "nameArabic": "القدر",
+  "nameEnglish": "Al-Qadr",
+  "meaningEnglish": "The Night of Decree",
+  "ayahs": [
+    { "verseKey": "97:1", "surahNumber": 97, "ayahNumber": 1, "textQpcHafs": "إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ" },
+    { "verseKey": "97:2", "surahNumber": 97, "ayahNumber": 2, "textQpcHafs": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ" },
+    { "verseKey": "97:3", "surahNumber": 97, "ayahNumber": 3, "textQpcHafs": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ" },
+    { "verseKey": "97:4", "surahNumber": 97, "ayahNumber": 4, "textQpcHafs": "تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ" },
+    { "verseKey": "97:5", "surahNumber": 97, "ayahNumber": 5, "textQpcHafs": "سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ" }
+  ]
+}

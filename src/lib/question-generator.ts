@@ -3,7 +3,13 @@ import type { ActiveSession, Question, QuestionBankEntry, QuestionType, VerseKey
 import { createSeededRandom, pickOne, shuffle } from "./random";
 
 export function getAdaptiveQuestionCount(selectedSurahCount: number, availableQuestionCount = Number.POSITIVE_INFINITY): number {
-  const recommended = selectedSurahCount <= 2 ? 5 : selectedSurahCount <= 5 ? 10 : 15;
+  const recommended = selectedSurahCount <= 2
+    ? 5
+    : selectedSurahCount <= 5
+      ? 10
+      : selectedSurahCount <= 10
+        ? 15
+        : Math.ceil((selectedSurahCount + 1) / 5) * 5;
   if (!Number.isFinite(availableQuestionCount)) return recommended;
   if (availableQuestionCount < 5) return availableQuestionCount;
   const roundedAvailable = Math.floor(availableQuestionCount / 5) * 5;

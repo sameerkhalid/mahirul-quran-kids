@@ -1,0 +1,18 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 104,
+  "nameArabic": "الهمزة",
+  "nameEnglish": "Al-Humazah",
+  "meaningEnglish": "The Backbiter",
+  "ayahs": [
+    { "verseKey": "104:1", "surahNumber": 104, "ayahNumber": 1, "textQpcHafs": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ" },
+    { "verseKey": "104:2", "surahNumber": 104, "ayahNumber": 2, "textQpcHafs": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ" },
+    { "verseKey": "104:3", "surahNumber": 104, "ayahNumber": 3, "textQpcHafs": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ" },
+    { "verseKey": "104:4", "surahNumber": 104, "ayahNumber": 4, "textQpcHafs": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ" },
+    { "verseKey": "104:5", "surahNumber": 104, "ayahNumber": 5, "textQpcHafs": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ" },
+    { "verseKey": "104:6", "surahNumber": 104, "ayahNumber": 6, "textQpcHafs": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ" },
+    { "verseKey": "104:7", "surahNumber": 104, "ayahNumber": 7, "textQpcHafs": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ" },
+    { "verseKey": "104:8", "surahNumber": 104, "ayahNumber": 8, "textQpcHafs": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ" },
+    { "verseKey": "104:9", "surahNumber": 104, "ayahNumber": 9, "textQpcHafs": "فِى عَمَدٍ مُّمَدَّدَةٍۭ" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 96,
+  "nameArabic": "العلق",
+  "nameEnglish": "Al-Alaq",
+  "meaningEnglish": "The Clinging Clot",
+  "ayahs": [
+    { "verseKey": "96:1", "surahNumber": 96, "ayahNumber": 1, "textQpcHafs": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ" },
+    { "verseKey": "96:2", "surahNumber": 96, "ayahNumber": 2, "textQpcHafs": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ" },
+    { "verseKey": "96:3", "surahNumber": 96, "ayahNumber": 3, "textQpcHafs": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ" },
+    { "verseKey": "96:4", "surahNumber": 96, "ayahNumber": 4, "textQpcHafs": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ" },
+    { "verseKey": "96:5", "surahNumber": 96, "ayahNumber": 5, "textQpcHafs": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ" },
+    { "verseKey": "96:6", "surahNumber": 96, "ayahNumber": 6, "textQpcHafs": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ" },
+    { "verseKey": "96:7", "surahNumber": 96, "ayahNumber": 7, "textQpcHafs": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ" },
+    { "verseKey": "96:8", "surahNumber": 96, "ayahNumber": 8, "textQpcHafs": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ" },
+    { "verseKey": "96:9", "surahNumber": 96, "ayahNumber": 9, "textQpcHafs": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ" },
+    { "verseKey": "96:10", "surahNumber": 96, "ayahNumber": 10, "textQpcHafs": "عَبْدًا إِذَا صَلَّىٰٓ" },
+    { "verseKey": "96:11", "surahNumber": 96, "ayahNumber": 11, "textQpcHafs": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ" },
+    { "verseKey": "96:12", "surahNumber": 96, "ayahNumber": 12, "textQpcHafs": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ" },
+    { "verseKey": "96:13", "surahNumber": 96, "ayahNumber": 13, "textQpcHafs": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ" },
+    { "verseKey": "96:14", "surahNumber": 96, "ayahNumber": 14, "textQpcHafs": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ" },
+    { "verseKey": "96:15", "surahNumber": 96, "ayahNumber": 15, "textQpcHafs": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ" },
+    { "verseKey": "96:16", "surahNumber": 96, "ayahNumber": 16, "textQpcHafs": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ" },
+    { "verseKey": "96:17", "surahNumber": 96, "ayahNumber": 17, "textQpcHafs": "فَلْيَدْعُ نَادِيَهُۥ" },
+    { "verseKey": "96:18", "surahNumber": 96, "ayahNumber": 18, "textQpcHafs": "سَنَدْعُ ٱلزَّبَانِيَةَ" },
+    { "verseKey": "96:19", "surahNumber": 96, "ayahNumber": 19, "textQpcHafs": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩" }
+  ]
+}

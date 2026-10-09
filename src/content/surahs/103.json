@@ -1,0 +1,12 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 103,
+  "nameArabic": "العصر",
+  "nameEnglish": "Al-Asr",
+  "meaningEnglish": "The Declining Day",
+  "ayahs": [
+    { "verseKey": "103:1", "surahNumber": 103, "ayahNumber": 1, "textQpcHafs": "وَٱلْعَصْرِ" },
+    { "verseKey": "103:2", "surahNumber": 103, "ayahNumber": 2, "textQpcHafs": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ" },
+    { "verseKey": "103:3", "surahNumber": 103, "ayahNumber": 3, "textQpcHafs": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ" }
+  ]
+}

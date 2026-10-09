@@ -1,0 +1,17 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 99,
+  "nameArabic": "الزلزلة",
+  "nameEnglish": "Az-Zalzalah",
+  "meaningEnglish": "The Earthquake",
+  "ayahs": [
+    { "verseKey": "99:1", "surahNumber": 99, "ayahNumber": 1, "textQpcHafs": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا" },
+    { "verseKey": "99:2", "surahNumber": 99, "ayahNumber": 2, "textQpcHafs": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا" },
+    { "verseKey": "99:3", "surahNumber": 99, "ayahNumber": 3, "textQpcHafs": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا" },
+    { "verseKey": "99:4", "surahNumber": 99, "ayahNumber": 4, "textQpcHafs": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا" },
+    { "verseKey": "99:5", "surahNumber": 99, "ayahNumber": 5, "textQpcHafs": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا" },
+    { "verseKey": "99:6", "surahNumber": 99, "ayahNumber": 6, "textQpcHafs": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ" },
+    { "verseKey": "99:7", "surahNumber": 99, "ayahNumber": 7, "textQpcHafs": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ" },
+    { "verseKey": "99:8", "surahNumber": 99, "ayahNumber": 8, "textQpcHafs": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ" }
+  ]
+}

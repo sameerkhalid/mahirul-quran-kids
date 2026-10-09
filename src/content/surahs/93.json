@@ -1,0 +1,20 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 93,
+  "nameArabic": "الضحى",
+  "nameEnglish": "Ad-Duha",
+  "meaningEnglish": "The Morning Brightness",
+  "ayahs": [
+    { "verseKey": "93:1", "surahNumber": 93, "ayahNumber": 1, "textQpcHafs": "وَٱلضُّحَىٰ" },
+    { "verseKey": "93:2", "surahNumber": 93, "ayahNumber": 2, "textQpcHafs": "وَٱلَّيْلِ إِذَا سَجَىٰ" },
+    { "verseKey": "93:3", "surahNumber": 93, "ayahNumber": 3, "textQpcHafs": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ" },
+    { "verseKey": "93:4", "surahNumber": 93, "ayahNumber": 4, "textQpcHafs": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ" },
+    { "verseKey": "93:5", "surahNumber": 93, "ayahNumber": 5, "textQpcHafs": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ" },
+    { "verseKey": "93:6", "surahNumber": 93, "ayahNumber": 6, "textQpcHafs": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ" },
+    { "verseKey": "93:7", "surahNumber": 93, "ayahNumber": 7, "textQpcHafs": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ" },
+    { "verseKey": "93:8", "surahNumber": 93, "ayahNumber": 8, "textQpcHafs": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ" },
+    { "verseKey": "93:9", "surahNumber": 93, "ayahNumber": 9, "textQpcHafs": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ" },
+    { "verseKey": "93:10", "surahNumber": 93, "ayahNumber": 10, "textQpcHafs": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ" },
+    { "verseKey": "93:11", "surahNumber": 93, "ayahNumber": 11, "textQpcHafs": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ" }
+  ]
+}

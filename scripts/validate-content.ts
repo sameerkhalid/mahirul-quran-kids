@@ -18,8 +18,9 @@ function formatIssues(path: string, issues: { path: PropertyKey[]; message: stri
   issues.forEach((issue) => errors.push(`${path}${issue.path.length ? ` → ${issue.path.join(".")}` : ""}: ${issue.message}`));
 }
 
-const surahFiles = Array.from({ length: 10 }, (_, index) => 105 + index).map((number) => `src/content/surahs/${number}.json`);
-const questionFiles = [...Array.from({ length: 10 }, (_, index) => String(105 + index)), "cross-surah"].map((name) => `src/content/questions/${name}.json`);
+const supportedSurahNumbers = Array.from({ length: 22 }, (_, index) => 93 + index);
+const surahFiles = supportedSurahNumbers.map((number) => `src/content/surahs/${number}.json`);
+const questionFiles = [...supportedSurahNumbers.map(String), "cross-surah"].map((name) => `src/content/questions/${name}.json`);
 const surahs: Surah[] = [];
 const questionBank: QuestionBankEntry[] = [];
 

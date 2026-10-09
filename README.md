@@ -1,6 +1,6 @@
 # Mahirul Qur’an Kids
 
-A frontend-only, offline-capable Qur’an memorisation game for young children. The current question bank covers the final ten surahs, from Al-Fil through An-Nas.
+A frontend-only, offline-capable Qur’an memorisation game for young children. The current question bank covers 22 surahs, from Ad-Duha through An-Nas.
 
 ## Run locally
 
@@ -41,7 +41,7 @@ The deployment workflow supplies `BASE_PATH=/mahirul-quran-kids/`; local builds 
 
 ## Prototype sources
 
-- Uthmanic Hafs text/font: King Fahd Glorious Qur’an Printing Complex resources
+- Uthmanic Hafs text/font: King Fahd Glorious Qur’an Printing Complex resources; Surahs 93–104 retrieved through the Quran Foundation/Quran.com content API
 - Recitation: Sheikh Ibrahim Al-Akhdar, sourced from EveryAyah for the local prototype
 
 Confirm recording reuse permission and perform a final Qur’an-content review before public deployment.

@@ -1,0 +1,17 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 95,
+  "nameArabic": "التين",
+  "nameEnglish": "At-Tin",
+  "meaningEnglish": "The Fig",
+  "ayahs": [
+    { "verseKey": "95:1", "surahNumber": 95, "ayahNumber": 1, "textQpcHafs": "وَٱلتِّينِ وَٱلزَّيْتُونِ" },
+    { "verseKey": "95:2", "surahNumber": 95, "ayahNumber": 2, "textQpcHafs": "وَطُورِ سِينِينَ" },
+    { "verseKey": "95:3", "surahNumber": 95, "ayahNumber": 3, "textQpcHafs": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ" },
+    { "verseKey": "95:4", "surahNumber": 95, "ayahNumber": 4, "textQpcHafs": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ" },
+    { "verseKey": "95:5", "surahNumber": 95, "ayahNumber": 5, "textQpcHafs": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ" },
+    { "verseKey": "95:6", "surahNumber": 95, "ayahNumber": 6, "textQpcHafs": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ" },
+    { "verseKey": "95:7", "surahNumber": 95, "ayahNumber": 7, "textQpcHafs": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ" },
+    { "verseKey": "95:8", "surahNumber": 95, "ayahNumber": 8, "textQpcHafs": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ" }
+  ]
+}

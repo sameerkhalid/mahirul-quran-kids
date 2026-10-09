@@ -20,10 +20,11 @@ describe("question generator", () => {
     expect(getAdaptiveQuestionCount(10, 100)).toBe(15);
     expect(generateSession([112, 113, 114], 8).questions).toHaveLength(10);
     expect(generateSession([105, 106, 107, 108, 109, 110, 111, 112, 113, 114], 8).questions).toHaveLength(15);
+    expect(generateSession(Array.from({ length: 22 }, (_, index) => 93 + index), 8).questions).toHaveLength(25);
   });
 
   it("covers every selected surah in a large session", () => {
-    const selected = [105, 106, 107, 108, 109, 110, 111, 112, 113, 114];
+    const selected = Array.from({ length: 22 }, (_, index) => 93 + index);
     const session = generateSession(selected, 21);
     const covered = new Set<number>();
     session.questions.forEach((question) => {

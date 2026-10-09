@@ -1,0 +1,20 @@
+{
+  "$schema": "../surah.schema.json",
+  "number": 101,
+  "nameArabic": "القارعة",
+  "nameEnglish": "Al-Qari'ah",
+  "meaningEnglish": "The Striking Calamity",
+  "ayahs": [
+    { "verseKey": "101:1", "surahNumber": 101, "ayahNumber": 1, "textQpcHafs": "ٱلْقَارِعَةُ" },
+    { "verseKey": "101:2", "surahNumber": 101, "ayahNumber": 2, "textQpcHafs": "مَا ٱلْقَارِعَةُ" },
+    { "verseKey": "101:3", "surahNumber": 101, "ayahNumber": 3, "textQpcHafs": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ" },
+    { "verseKey": "101:4", "surahNumber": 101, "ayahNumber": 4, "textQpcHafs": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ" },
+    { "verseKey": "101:5", "surahNumber": 101, "ayahNumber": 5, "textQpcHafs": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ" },
+    { "verseKey": "101:6", "surahNumber": 101, "ayahNumber": 6, "textQpcHafs": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ" },
+    { "verseKey": "101:7", "surahNumber": 101, "ayahNumber": 7, "textQpcHafs": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ" },
+    { "verseKey": "101:8", "surahNumber": 101, "ayahNumber": 8, "textQpcHafs": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ" },
+    { "verseKey": "101:9", "surahNumber": 101, "ayahNumber": 9, "textQpcHafs": "فَأُمُّهُۥ هَاوِيَةٌ" },
+    { "verseKey": "101:10", "surahNumber": 101, "ayahNumber": 10, "textQpcHafs": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ" },
+    { "verseKey": "101:11", "surahNumber": 101, "ayahNumber": 11, "textQpcHafs": "نَارٌ حَامِيَةٌۢ" }
+  ]
+}

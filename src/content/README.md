@@ -2,6 +2,10 @@
 
 Everything intended for manual editing is in this directory. UI components never contain Qur'anic text.
 
+Current coverage runs from Surah 93 (Ad-Duha) through Surah 114 (An-Nas).
+
+The Uthmani ayah text for Surahs 93–104 was imported from the Quran Foundation/Quran.com content API and checked byte-for-byte against the downloaded API response. Keep the existing field names and run the validator after any manual correction.
+
 ## Correct an ayah
 
 Open the surah file in `surahs/`, find its `verseKey`, and update `textQpcHafs`. Keep the verse key, surah number, and ayah number unchanged unless you are correcting the structure itself.
