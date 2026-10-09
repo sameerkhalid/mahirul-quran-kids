@@ -6,6 +6,8 @@ describe("QuranText", () => {
   it("renders canonical text and an accessible ayah marker", () => {
     render(<QuranText verseKey="112:1" />);
     expect(screen.getByText(/قُلْ هُوَ/)).toHaveAttribute("dir", "rtl");
-    expect(screen.getByLabelText("Ayah 1")).toBeInTheDocument();
+    const marker = screen.getByLabelText("Ayah 1");
+    expect(marker).toHaveTextContent("١");
+    expect(marker).not.toHaveTextContent("۝");
   });
 });

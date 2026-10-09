@@ -14,7 +14,7 @@ export function QuranText({ verseKey, showMarker = true, size = "regular" }: {
   return (
     <span className={`quran-text quran-text--${size}`} lang="ar" dir="rtl">
       {ayah.textQpcHafs}
-      {showMarker && <span className="ayah-marker" aria-label={`Ayah ${ayah.ayahNumber}`}> ۝{arabicDigits(ayah.ayahNumber)}</span>}
+      {showMarker && <span className="ayah-marker" aria-label={`Ayah ${ayah.ayahNumber}`}> {arabicDigits(ayah.ayahNumber)}</span>}
     </span>
   );
 }
